@@ -1,20 +1,22 @@
 [ActiveShadows]
-ColorType=4
-Size=15
-VOffset=0
+Color=60,60,60
+ColorType=5
+HOffset=3
+Size=18
+VOffset=3
 
 [InactiveShadows]
-Size=15
-VOffset=0
+HOffset=1
+Size=10
+VOffset=3
 
 [KWin]
 BorderSize=2
 CustomShadows=true
-EdgePad=2
+EdgePad=1
 InnerBorder=0
-OpaqueBorder=false
 OuterBorder=0
-TitleBarPad=2
+TitleBarPad=1
 
 [Settings]
 activeTabAppearance=flat
@@ -122,11 +124,11 @@ shadeCheckRadio=origselected
 shadeMenubarOnlyWhenActive=false
 shadeMenubars=wborder
 shadePopupMenu=true
-shadeSliders=none
+shadeSliders=#C1C1C1
 shading=hsl
 sliderAppearance=flat
 sliderFill=true
-sliderStyle=circular
+sliderStyle=round
 sliderThumbs=none
 sliderWidth=11
 smallRadio=false
@@ -154,7 +156,7 @@ titlebarAppearance=flat
 titlebarButtonAppearance=flat
 titlebarButtons=16744
 titlebarEffect=none
-titlebarIcon=none
+titlebarIcon=menu
 toolbarAppearance=flat
 toolbarBorders=dark
 toolbarSeparators=flat
@@ -166,7 +168,7 @@ unifySpinBtns=false
 useHighlightForMenu=true
 useQtFileDialogApps=
 vArrows=false
-version=1.8.14
+version=1.8.18
 windowBorder=0
 windowDrag=3
 xCheck=false
