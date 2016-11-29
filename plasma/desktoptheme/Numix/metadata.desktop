@@ -3,9 +3,9 @@ Name=Numix
 
 X-KDE-PluginInfo-Author=Alexey Varfolomeev
 X-KDE-PluginInfo-Email=varlesh@gmail.com
-X-KDE-PluginInfo-Name=Numix
+X-KDE-PluginInfo-Name=org.numixproject.kde
 X-KDE-PluginInfo-Version=
-X-KDE-PluginInfo-Website=https://github.com/varlesh/numix-plasma
+X-KDE-PluginInfo-Website=https://github.com/numixproject
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=GPL v3
