@@ -8,7 +8,7 @@ ColorScheme=Numix
 Theme=Numix-Circle
 
 [plasmarc][Theme]
-name=Numix
+name=org.numixproject.kde
 
 [kcminputrc][Mouse]
 cursorTheme=breeze_cursors
