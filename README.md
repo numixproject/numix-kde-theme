@@ -15,7 +15,7 @@ Remove:
 ```
 git clone https://github.com/varlesh/numix-kde-theme.git
 cd numix-kde-theme
-sudo make unistall
+sudo make uninstall
 ```
 ### Code and license
 
