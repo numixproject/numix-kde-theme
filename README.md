@@ -1,15 +1,22 @@
-Numix is a modern flat theme with a combination of light and dark elements. The package consists of a KDE Color Scheme and a QtCurve theme.
+Numix pack for KDE
 
-Numix is a part of the [Numix Project](http://numixproject.org).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/varlesh/numix-kde-theme/master/preview.png" alt="Preview Numix KDE"/>
+</p>
 
-### Manual installation
-
-To use the color scheme, go to `System Settings > Application Appearance > Colors > Import Scheme`, then select the file `Numix.colors` to import. Select the color scheme and click `Apply`.
-
-To use the QtCurve theme, first install the qtcurve theme engine, then go to `System Settings > Application Appearance > Style > Applications` and set `Widget style` to `QtCurve`. Click on `Configure` and then `Import`, now select the file  `Numix.qtcurve`.
-
+### Installation
+Install:
+```
+git clone https://github.com/varlesh/numix-kde-theme.git
+cd numix-kde-theme
+sudo make install
+```
+Remove:
+```
+git clone https://github.com/varlesh/numix-kde-theme.git
+cd numix-kde-theme
+sudo make uninstall
+```
 ### Code and license
-
-Report bugs or contribute at [GitHub](https://github.com/numixproject/numix-kde-theme)
 
 License: GPL-3.0+
