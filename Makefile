@@ -1,14 +1,12 @@
 all:
 
 install:
-	mkdir -p $(DESTDIR)/usr/share
-	cp --no-preserve=mode,ownership -r \
-		color-schemes \
-		plasma
+	mkdir -p ~/.local/share
+	cp --no-preserve=mode,ownership -r plasma color-schemes ~/.local/share
 
 uninstall:
-	-rm -r  $(DESTDIR)/usr/share/color-schemes/Numix.colors
-	-rm -rf $(DESTDIR)/usr/share/plasma/desktoptheme/Numix
-	-rm -rf $(DESTDIR)/usr/share/plasma/look-and-feel/org.numixproject.kde
+	-rm -r  ~/.local/share/color-schemes/Numix.colors
+	-rm -rf ~/.local/share/plasma/desktoptheme/Numix
+	-rm -rf ~/.local/share/plasma/look-and-feel/org.numixproject.kde
 
 .PHONY: all install uninstall

@@ -9,13 +9,13 @@ Type=Service
 
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-ParentApp=
-X-KDE-PluginInfo-Author=Alexey Varfolomeev
+X-KDE-PluginInfo-Author=Numix Project
 X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Email=numixproject@gmail.com
 X-KDE-PluginInfo-License=GNU GPL v3
 X-KDE-PluginInfo-Name=org.numixproject.kde
 X-KDE-PluginInfo-Version=
-X-KDE-PluginInfo-Website=https://github.com/numixproject
+X-KDE-PluginInfo-Website=https://numixproject.github.io
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults
 X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1181534,kns://plasma-themes.knsrc/api.kde-look.org/1181533
